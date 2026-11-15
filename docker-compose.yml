@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  inventory-app:
+    build: .
+    container_name: miva_lab4_app
+    restart: always
